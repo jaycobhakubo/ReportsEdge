@@ -1,0 +1,13 @@
+﻿<Window x:Class="ReportVersions.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Report Versions" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Width="450" Height="200" Icon="/ReportVersions;component/GameTech.ico">
+    <Grid Width="400" Height="150">
+        <Label Content="Report Directory:" Height="28" HorizontalAlignment="Left" Margin="16,18,0,0" Name="label1" VerticalAlignment="Top" />
+        <TextBox Height="23" Margin="122,20,18,0" Name="txtRptDir" VerticalAlignment="Top" Text="c:\GameTech\Reports\" />
+        <Label Content="Output File:" Height="28" HorizontalAlignment="Left" Margin="16,52,0,0" Name="label2" VerticalAlignment="Top" />
+        <TextBox Height="23" Margin="122,54,18,0" Name="txtFile" Text="Versions.csv" VerticalAlignment="Top" />
+        <Button Click="btnGet_Click" Content="Get Versions" Margin="0,0,6,8" Name="btnGet" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" IsDefault="True" />
+        <Button Click="btnCancel_Click" Content="Cancel" HorizontalAlignment="Right" Margin="0,0,87,8" Name="btnCancel" Width="75" Height="23" VerticalAlignment="Bottom" IsCancel="True" />
+    </Grid>
+</Window>

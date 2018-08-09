@@ -1,0 +1,1 @@
+The Player Total was not correct when device fees are used and two players with the same last name made a purchase with in the date range and ran for All Players. 
