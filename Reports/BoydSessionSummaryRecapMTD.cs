@@ -16,14 +16,14 @@ namespace EdgeReports.Reports {
     using CrystalDecisions.CrystalReports.Engine;
     
     
-    public class PresalesPlayDate : ReportClass {
+    public class BoydSessionSummaryRecapMTD : ReportClass {
         
-        public PresalesPlayDate() {
+        public BoydSessionSummaryRecapMTD() {
         }
         
         public override string ResourceName {
             get {
-                return "PresalesPlayDate.rpt";
+                return "BoydSessionSummaryRecapMTD.rpt";
             }
             set {
                 // Do nothing
@@ -41,7 +41,7 @@ namespace EdgeReports.Reports {
         
         public override string FullResourceName {
             get {
-                return "EdgeReports.Reports.PresalesPlayDate.rpt";
+                return "EdgeReports.Reports.BoydSessionSummaryRecapMTD.rpt";
             }
             set {
                 // Do nothing
@@ -90,7 +90,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section GroupHeaderSection2 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
             get {
                 return this.ReportDefinition.Sections[5];
             }
@@ -98,7 +98,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section3 {
+        public CrystalDecisions.CrystalReports.Engine.Section DetailSection1 {
             get {
                 return this.ReportDefinition.Sections[6];
             }
@@ -106,7 +106,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section DetailSection1 {
+        public CrystalDecisions.CrystalReports.Engine.Section GroupFooterSection1 {
             get {
                 return this.ReportDefinition.Sections[7];
             }
@@ -114,7 +114,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section GroupFooterSection2 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
             get {
                 return this.ReportDefinition.Sections[8];
             }
@@ -122,7 +122,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section GroupFooterSection1 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportFooterSection1 {
             get {
                 return this.ReportDefinition.Sections[9];
             }
@@ -130,7 +130,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section4 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportFooterSection3 {
             get {
                 return this.ReportDefinition.Sections[10];
             }
@@ -138,7 +138,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section Section5 {
+        public CrystalDecisions.CrystalReports.Engine.Section ReportFooterSection2 {
             get {
                 return this.ReportDefinition.Sections[11];
             }
@@ -146,7 +146,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.CrystalReports.Engine.Section PageFooterSection2 {
+        public CrystalDecisions.CrystalReports.Engine.Section Section5 {
             get {
                 return this.ReportDefinition.Sections[12];
             }
@@ -183,20 +183,12 @@ namespace EdgeReports.Reports {
                 return this.DataDefinition.ParameterFields[2];
             }
         }
-        
-        [Browsable(false)]
-        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_Session {
-            get {
-                return this.DataDefinition.ParameterFields[3];
-            }
-        }
     }
     
     [System.Drawing.ToolboxBitmapAttribute(typeof(CrystalDecisions.Shared.ExportOptions), "report.bmp")]
-    public class CachedPresalesPlayDate : Component, ICachedReport {
+    public class CachedBoydSessionSummaryRecapMTD : Component, ICachedReport {
         
-        public CachedPresalesPlayDate() {
+        public CachedBoydSessionSummaryRecapMTD() {
         }
         
         [Browsable(false)]
@@ -233,7 +225,7 @@ namespace EdgeReports.Reports {
         }
         
         public virtual CrystalDecisions.CrystalReports.Engine.ReportDocument CreateReport() {
-            PresalesPlayDate rpt = new PresalesPlayDate();
+            BoydSessionSummaryRecapMTD rpt = new BoydSessionSummaryRecapMTD();
             rpt.Site = this.Site;
             return rpt;
         }

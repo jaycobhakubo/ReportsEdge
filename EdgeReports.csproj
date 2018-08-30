@@ -379,6 +379,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BlowerLogV1.rpt</DependentUpon>
     </Compile>
+    <Compile Include="Reports\BoydSessionSummaryRecapMTD.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoydSessionSummaryRecapMTD.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Reports\CashActivitySummaryReport.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -500,11 +505,6 @@
       <DependentUpon>BoydSessionSummaryRecapCashBased.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="Reports\BoydSessionSummaryRecapDaily.cs">
-      <DependentUpon>BoydSessionSummaryRecapDaily.rpt</DependentUpon>
-      <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Reports\Comps.cs">
@@ -2175,6 +2175,7 @@
     </Compile>
     <Content Include="sql\AddCouponUsage.sql" />
     <Content Include="sql\AddEndOccasionLog.sql" />
+    <Content Include="sql\AddFortunetUnitUsageReport.sql" />
     <Content Include="sql\AddOcassion.sql" />
     <Content Include="sql\AddOcassionSummary.sql" />
     <Content Include="sql\AddPaperBingoSales.sql" />
@@ -2486,6 +2487,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BlowerLogV1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapMTD.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoydSessionSummaryRecapMTD.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\CashActivitySummaryReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CashActivitySummaryReport.cs</LastGenOutput>
@@ -2573,10 +2578,6 @@
     <EmbeddedResource Include="Reports\BoydSessionSummaryRecapCashBased.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BoydSessionSummaryRecapCashBased.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapDaily.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>BoydSessionSummaryRecapDaily.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Comps.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
