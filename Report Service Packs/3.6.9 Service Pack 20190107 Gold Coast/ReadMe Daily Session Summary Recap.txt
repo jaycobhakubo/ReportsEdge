@@ -1,0 +1,1 @@
+Added Bingo Other column to the Daily Session Summary Recap.

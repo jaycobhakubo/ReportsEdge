@@ -1,0 +1,1 @@
+Fixed - Totals row was hidden when the start date = end date. 

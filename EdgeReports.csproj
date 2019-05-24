@@ -379,10 +379,20 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BlowerLogV1.rpt</DependentUpon>
     </Compile>
+    <Compile Include="Reports\BoydSessionSummaryRecapDaily.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoydSessionSummaryRecapDaily.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Reports\BoydSessionSummaryRecapMTD.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BoydSessionSummaryRecapMTD.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\BusSalesByDate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BusSalesByDate.rpt</DependentUpon>
     </Compile>
     <Compile Include="Reports\CashActivitySummaryReport.cs">
       <AutoGen>True</AutoGen>
@@ -513,6 +523,143 @@
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Reports\CardLevelDistribution.cs">
+      <DependentUpon>CardLevelDistribution.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\BoydSessionSummaryRecapCashBasedSunCoast.cs">
+      <DependentUpon>BoydSessionSummaryRecapCashBasedSunCoast.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\BoydSessionSummaryRecapSession.cs">
+      <DependentUpon>BoydSessionSummaryRecapSession.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\Miccosukee.cs">
+      <DependentUpon>Miccosukee.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\GoldsbyGameAnalysis.cs">
+      <DependentUpon>GoldsbyGameAnalysis.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\GoldsbySalesByProductGrpDateSession.cs">
+      <DependentUpon>GoldsbySalesByProductGrpDateSession.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\MiccosukeeCashActivitySummaryReport.cs">
+      <DependentUpon>MiccosukeeCashActivitySummaryReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\MiccosukeeCashActivityReport.cs">
+      <DependentUpon>MiccosukeeCashActivityReport.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\SalesByProductGroup.cs">
+      <DependentUpon>SalesByProductGroup.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\CreditCardPayments.cs">
+      <DependentUpon>CreditCardPayments.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PresalesElectronicSales.cs">
+      <DependentUpon>PresalesElectronicSales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\CouponPlayerAvailability.cs">
+      <DependentUpon>CouponPlayerAvailability.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\StationsProgressiveJackpotCalendar.cs">
+      <DependentUpon>StationsProgressiveJackpotCalendar.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\FortunetUnitUsageAZCharlies.cs">
+      <DependentUpon>FortunetUnitUsageAZCharlies.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PayoutsByLevel.cs">
+      <DependentUpon>PayoutsByLevel.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\ExpiredPresales.cs">
+      <DependentUpon>ExpiredPresales.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\RegisterTransactions.cs">
+      <DependentUpon>RegisterTransactions.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PresalesDetail.cs">
+      <DependentUpon>PresalesDetail.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PresalesBackIn.cs">
+      <DependentUpon>PresalesBackIn.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\ManualPlayerPointAdjustments1k.cs">
+      <DependentUpon>ManualPlayerPointAdjustments1k.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\InventorySalesByProduct.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InventorySalesByProduct.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SessionCashDrop.cs">
+      <DependentUpon>SessionCashDrop.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PresalesReconciliation.cs">
+      <DependentUpon>PresalesReconciliation.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Reports\FortunetUnitUsage.cs">
       <DependentUpon>FortunetUnitUsage.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -594,6 +741,11 @@
       <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\SessionSummaryRecapCashBasedwCents.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SessionSummaryRecapCashBasedwCents.rpt</DependentUpon>
     </Compile>
     <Compile Include="Reports\SubElectronicSalesTotals.cs">
       <DependentUpon>SubElectronicSalesTotals.rpt</DependentUpon>
@@ -765,8 +917,8 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Reports\StationsProgressiveJackpotCalendar.cs">
-      <DependentUpon>StationsProgressiveJackpotCalendar.rpt</DependentUpon>
+    <Compile Include="Reports\StationsProgressiveJackpotCalendarNonGrouped.cs">
+      <DependentUpon>StationsProgressiveJackpotCalendarNonGrouped.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
@@ -2487,9 +2639,17 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BlowerLogV1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapDaily.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoydSessionSummaryRecapDaily.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\BoydSessionSummaryRecapMTD.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BoydSessionSummaryRecapMTD.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BusSalesByDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BusSalesByDate.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\CashActivitySummaryReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -2583,6 +2743,98 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Comps.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CardLevelDistribution.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CardLevelDistribution.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapCashBasedSunCoast.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoydSessionSummaryRecapCashBasedSunCoast.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapSession.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoydSessionSummaryRecapSession.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Miccosukee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Miccosukee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GoldsbyGameAnalysis.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GoldsbyGameAnalysis.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GoldsbySalesByProductGrpDateSession.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GoldsbySalesByProductGrpDateSession.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MiccosukeeCashActivitySummaryReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MiccosukeeCashActivitySummaryReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MiccosukeeCashActivityReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MiccosukeeCashActivityReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalesByProductGroup.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalesByProductGroup.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CreditCardPayments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CreditCardPayments.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PresalesElectronicSales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PresalesElectronicSales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CouponPlayerAvailability.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CouponPlayerAvailability.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\StationsProgressiveJackpotCalendar.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>StationsProgressiveJackpotCalendar.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\FortunetUnitUsageAZCharlies.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>FortunetUnitUsageAZCharlies.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PayoutsByLevel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PayoutsByLevel.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ExpiredPresales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExpiredPresales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegisterTransactions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegisterTransactions.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PresalesDetail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PresalesDetail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PresalesBackIn.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PresalesBackIn.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ManualPlayerPointAdjustments1k.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ManualPlayerPointAdjustments1k.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InventorySalesByProduct.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InventorySalesByProduct.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SessionCashDrop.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SessionCashDrop.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PresalesReconciliation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PresalesReconciliation.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\FortunetUnitUsage.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>FortunetUnitUsage.cs</LastGenOutput>
@@ -2638,6 +2890,10 @@
     <EmbeddedResource Include="Reports\DoorSalesReportNebraska.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>DoorSalesReportNebraska.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SessionSummaryRecapCashBasedwCents.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SessionSummaryRecapCashBasedwCents.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\SubElectronicSalesTotals.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -2755,9 +3011,9 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>StationsSessionSummaryRecapDaily.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Reports\StationsProgressiveJackpotCalendar.rpt">
+    <EmbeddedResource Include="Reports\StationsProgressiveJackpotCalendarNonGrouped.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>StationsProgressiveJackpotCalendar.cs</LastGenOutput>
+      <LastGenOutput>StationsProgressiveJackpotCalendarNonGrouped.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\StationsSessionSummaryReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>

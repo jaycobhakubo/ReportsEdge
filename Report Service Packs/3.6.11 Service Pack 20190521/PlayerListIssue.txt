@@ -1,0 +1,2 @@
+When spend date range was set, in the stored procedures a day was added to the @EndDate parameter.
+The changes to the stored procedure where condition now set <= @EndDate where before it was < @EndDate.
