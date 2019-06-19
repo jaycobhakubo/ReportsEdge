@@ -379,6 +379,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BlowerLogV1.rpt</DependentUpon>
     </Compile>
+    <Compile Include="Reports\BoydSessionSummaryRecapCashBasedAlliante.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoydSessionSummaryRecapCashBasedAlliante.rpt</DependentUpon>
+    </Compile>
     <Compile Include="Reports\BoydSessionSummaryRecapDaily.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -541,6 +546,27 @@
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Reports\Inventory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Inventory.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\MiccosukeePayoutDetailReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MiccosukeePayoutDetailReport.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\RaffleEntryCountFiestaJune.cs">
+      <DependentUpon>RaffleEntryCountFiestaJune.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\MiccosukeeCashActivityShortages.cs">
+      <DependentUpon>MiccosukeeCashActivityShortages.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Reports\PresalesCancelledSessions.cs">
       <DependentUpon>PresalesCancelledSessions.rpt</DependentUpon>
       <AutoGen>True</AutoGen>
@@ -576,6 +602,11 @@
       <AutoGen>True</AutoGen>
       <SubType>Component</SubType>
       <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\RaffleEntryCount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RaffleEntryCount.rpt</DependentUpon>
     </Compile>
     <Compile Include="Reports\SalesByProductGroup.cs">
       <DependentUpon>SalesByProductGroup.rpt</DependentUpon>
@@ -2645,6 +2676,10 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BlowerLogV1.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BoydSessionSummaryRecapCashBasedAlliante.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoydSessionSummaryRecapCashBasedAlliante.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\BoydSessionSummaryRecapDaily.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BoydSessionSummaryRecapDaily.cs</LastGenOutput>
@@ -2761,6 +2796,22 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>BoydSessionSummaryRecapSession.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Inventory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Inventory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MiccosukeePayoutDetailReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MiccosukeePayoutDetailReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RaffleEntryCountFiestaJune.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RaffleEntryCountFiestaJune.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\MiccosukeeCashActivityShortages.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MiccosukeeCashActivityShortages.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Reports\PresalesCancelledSessions.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>PresalesCancelledSessions.cs</LastGenOutput>
@@ -2784,6 +2835,10 @@
     <EmbeddedResource Include="Reports\MiccosukeeCashActivityReport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>MiccosukeeCashActivityReport.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RaffleEntryCount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RaffleEntryCount.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\SalesByProductGroup.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
