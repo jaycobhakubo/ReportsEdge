@@ -394,7 +394,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_SPOprtionSelected {
+        public CrystalDecisions.Shared.IParameterField Parameter_SPOptionValue {
             get {
                 return this.DataDefinition.ParameterFields[34];
             }
@@ -402,7 +402,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_SPOptionValue {
+        public CrystalDecisions.Shared.IParameterField Parameter_DaysOfWeekNSessionNbr {
             get {
                 return this.DataDefinition.ParameterFields[35];
             }
@@ -410,7 +410,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_DaysOfWeekNSessionNbr {
+        public CrystalDecisions.Shared.IParameterField Parameter_IsPackageName {
             get {
                 return this.DataDefinition.ParameterFields[36];
             }
@@ -418,7 +418,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_IsPackageName {
+        public CrystalDecisions.Shared.IParameterField Parameter_PackageName {
             get {
                 return this.DataDefinition.ParameterFields[37];
             }
@@ -426,7 +426,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_PackageName {
+        public CrystalDecisions.Shared.IParameterField Parameter_LocationType {
             get {
                 return this.DataDefinition.ParameterFields[38];
             }
@@ -434,7 +434,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_LocationType {
+        public CrystalDecisions.Shared.IParameterField Parameter_LocationDefinition {
             get {
                 return this.DataDefinition.ParameterFields[39];
             }
@@ -442,7 +442,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_LocationDefinition {
+        public CrystalDecisions.Shared.IParameterField Parameter_AgeOptionSelected {
             get {
                 return this.DataDefinition.ParameterFields[40];
             }
@@ -450,7 +450,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_AgeOptionSelected {
+        public CrystalDecisions.Shared.IParameterField Parameter_AgeValue {
             get {
                 return this.DataDefinition.ParameterFields[41];
             }
@@ -458,7 +458,7 @@ namespace EdgeReports.Reports {
         
         [Browsable(false)]
         [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
-        public CrystalDecisions.Shared.IParameterField Parameter_AgeValue {
+        public CrystalDecisions.Shared.IParameterField Parameter_SPOptionSelected {
             get {
                 return this.DataDefinition.ParameterFields[42];
             }
